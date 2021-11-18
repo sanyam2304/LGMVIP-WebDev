@@ -51,13 +51,13 @@
   color: azure;
 }
 .navbar-brand:hover {
-  color: darkgoldenrod;
+  color: #F0E9D2;
 }
 .nav-link {
   color: azure !important;
 }
 .nav-link:hover {
-  color: yellow !important;
+  color: #F0E9D2 !important;
 }
 .navbar {
   margin: 0 200px;
@@ -76,7 +76,7 @@
   color: aliceblue !important;
 }
 .btn:hover {
-  background-color: yellow !important;
+  background-color: #F0E9D2 !important;
   color: black !important;
 }
 .heading_first {
@@ -155,7 +155,7 @@ hr {
   background-color: #fefbf3;
 }
 .pro .card-body:hover {
-  background-color: yellow;
+  background-color: #F0E9D2;
 }
 .pro .btn {
   background-color: aliceblue !important;
