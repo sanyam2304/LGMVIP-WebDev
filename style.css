@@ -1,0 +1,463 @@
+/* * {
+  background-color: #fefbf3;
+} */
+* {
+  font-family: "Mukta", sans-serif;
+}
+.top {
+  height: 100vh;
+}
+.top_first {
+  position: absolute;
+  width: 100%;
+}
+.c1 {
+  background-image: url(./images.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c2 {
+  background-image: url(./second.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c3 {
+  background-image: url(./third.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c4 {
+  background-image: url(./fourth.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top_second {
+  z-index: 200;
+  position: fixed;
+  background-color: #511281;
+  width: 100%;
+
+  /* justify-content: right; */
+}
+
+.collapse ul {
+  padding-left: 75%;
+}
+.navbar-brand {
+  color: azure;
+}
+.navbar-brand:hover {
+  color: darkgoldenrod;
+}
+.nav-link {
+  color: azure !important;
+}
+.nav-link:hover {
+  color: yellow !important;
+}
+.navbar {
+  margin: 0 200px;
+}
+.top_third {
+  z-index: 20;
+  position: absolute;
+  margin: 15vh 45% 0 25%;
+  color: azure;
+}
+.top_third h4 {
+  text-align: left;
+}
+.btn {
+  background-color: blueviolet !important;
+  color: aliceblue !important;
+}
+.btn:hover {
+  background-color: yellow !important;
+  color: black !important;
+}
+.heading_first {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.mid_top,
+.mid_top .umbrella .card-body,
+.mid_top .umbrella i {
+  background-color: #fefbf3;
+}
+
+.umbrella {
+  display: flex;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  align-items: center;
+}
+.card {
+  border: none !important;
+}
+.umbrella_down {
+  margin-top: 100px;
+}
+.row {
+  justify-content: center;
+  text-align: center;
+}
+.umbrella_down p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.umbrella p {
+  padding-right: 100px;
+  font-size: 25px;
+  text-align: left;
+}
+.umbrella_down i {
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 100%;
+}
+.fa-bell {
+  transform: rotate(20deg);
+}
+hr {
+  margin: 100px 10% !important;
+  margin-bottom: 0 !important;
+}
+.Projects {
+  background-color: #fefbf3;
+}
+.Projects h1 {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pro {
+  /* margin-left: 0px !important;
+  margin-right: 0px !important; */
+  justify-content: space-between;
+}
+.pro .card {
+  padding: 0;
+}
+.pro .col {
+  padding: 0px;
+}
+.pro img {
+  height: 300px;
+}
+.pro .card-body {
+  background-color: #fefbf3;
+}
+.pro .card-body:hover {
+  background-color: yellow;
+}
+.pro .btn {
+  background-color: aliceblue !important;
+  color: black !important;
+}
+.pro .btn:hover {
+  background-color: purple !important;
+  color: aliceblue !important;
+}
+
+.Pricing_table h1 {
+  text-align: center;
+  margin-bottom: 70px;
+  padding-top: 70px;
+}
+.ptable {
+  justify-content: center !important;
+  text-align: center;
+}
+.ptable .card {
+  background-color: #fefbf3 !important;
+}
+.vertical {
+  border-left: 2px solid rgba(136, 158, 175, 0.2);
+
+  border-right: 2px solid rgba(136, 158, 175, 0.2);
+}
+.video_pro {
+  background-color: #511281;
+  padding-bottom: 50px;
+}
+.video_pro h1 {
+  text-align: center;
+  color: aliceblue;
+  padding: 30px;
+  padding-bottom: 30px;
+}
+.carousel-inner {
+  align-content: center;
+  text-align: center;
+}
+.video_pro p {
+  color: #fefbf3;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.zippy_team {
+  background-color: #fefbf3;
+}
+.zippy_team h1 {
+  text-align: center;
+  padding-top: 70px;
+}
+.thirteen {
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefbf3 !important;
+}
+
+.thirteenpoint {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.thirteenimg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #fefbf3 !important;
+}
+
+.thirteen .thirteenpoint .card {
+  border: none;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.thirteenpoint .card .card-body {
+  padding-top: 160px;
+  background-color: #fefbf3;
+}
+
+.thirteenpoint .card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: auto;
+  position: absolute;
+  display: block;
+}
+
+.thirteenimg .imgoverlay:hover {
+  opacity: 1;
+}
+
+.thirteenimg .imgoverlay {
+  background-color: rgba(128, 0, 128, 0.4);
+  border-radius: 100%;
+  height: 150px;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+  width: 150px;
+  z-index: 100;
+}
+
+.imgconts {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
+
+.imgconts a i {
+  padding: 5px;
+  color: white;
+}
+.life_in {
+  background-color: #ffe9d6;
+}
+.life_in h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.mySlides img {
+  width: 768px !important;
+  height: 432px !important;
+}
+.life_in .column {
+  margin: auto;
+  width: 16%;
+}
+.life_in {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.prev {
+  text-align: left !important;
+}
+.life_in .row {
+  width: 768px;
+  margin: auto;
+  padding-top: 20px;
+}
+.life_in .column img {
+  height: 65px !important;
+}
+.signup h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: #f2f2f2;
+  /* position: absolute;
+  z-index: 30px; */
+}
+.signup img {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  z-index: -2;
+}
+.signup .d-flex {
+  padding-top: 40px;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+.blog {
+  padding-bottom: 80px;
+  background-color: #fefbf3;
+}
+.blog .card-body {
+  background-color: #fefbf3;
+}
+.blog h1 {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 150px;
+  padding-bottom: 30px;
+}
+.blog .container {
+  text-align: center !important;
+}
+.MAP .top {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.MAP .bottom h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.MAP .bottom {
+  background-color: #d4ac2b;
+  text-align: left;
+  height: 500px;
+}
+.MAP a {
+  width: 50%;
+}
+.LAST {
+  padding-top: 70px;
+  background-color: #fefbf3;
+  padding-bottom: 70px;
+}
+.copyright {
+  text-align: center;
+  background-color: #511281;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.copyright a,
+.copyright h4 {
+  color: #f2f2f2;
+  text-decoration: none;
+}
