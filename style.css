@@ -51,13 +51,13 @@
   color: azure;
 }
 .navbar-brand:hover {
-  color: #F0E9D2;
+  color: #f0e9d2;
 }
 .nav-link {
   color: azure !important;
 }
 .nav-link:hover {
-  color: #F0E9D2 !important;
+  color: #f0e9d2 !important;
 }
 .navbar {
   margin: 0 200px;
@@ -76,7 +76,7 @@
   color: aliceblue !important;
 }
 .btn:hover {
-  background-color: #F0E9D2 !important;
+  background-color: #f0e9d2 !important;
   color: black !important;
 }
 .heading_first {
@@ -155,7 +155,7 @@ hr {
   background-color: #fefbf3;
 }
 .pro .card-body:hover {
-  background-color: #F0E9D2;
+  background-color: #f0e9d2;
 }
 .pro .btn {
   background-color: aliceblue !important;
